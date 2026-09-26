@@ -244,3 +244,15 @@ class SettleEntry(BaseModel):
     field_5: str | None = None  # 已收金额
     field_6: str | None = None  # 开票状态
     field_7: str | None = None  # 结算状态
+
+class ReeferEntry(BaseModel):
+    """冷藏箱温控巡检明细结构。"""
+
+    field_0: str | None = None  # 箱号
+    field_1: str | None = None  # 设定温度
+    field_2: str | None = None  # 温度下限
+    field_3: str | None = None  # 温度上限
+    field_4: str | None = None  # 巡检频次
+    field_5: str | None = None  # 巡检人
+    field_6: str | None = None  # 登记时间
+    field_7: str | None = None  # 巡检状态
