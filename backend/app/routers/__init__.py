@@ -13,6 +13,7 @@ from app.routers import crane as router_crane
 from app.routers import loading as router_loading
 from app.routers import yard as router_yard
 from app.routers import container as router_container
+from app.routers import reefer as router_reefer
 from app.routers import yardstore as router_yardstore
 from app.routers import gate as router_gate
 from app.routers import truck as router_truck
@@ -25,4 +26,4 @@ from app.routers import safety as router_safety
 from app.routers import customer as router_customer
 from app.routers import settle as router_settle
 
-ROUTERS = [router_berth, router_vessel, router_voyage, router_crane, router_loading, router_yard, router_container, router_yardstore, router_gate, router_truck, router_tally, router_damage, router_manifest, router_storage, router_pilot, router_safety, router_customer, router_settle]
+ROUTERS = [router_berth, router_vessel, router_voyage, router_crane, router_loading, router_yard, router_container, router_reefer, router_yardstore, router_gate, router_truck, router_tally, router_damage, router_manifest, router_storage, router_pilot, router_safety, router_customer, router_settle]

@@ -8,6 +8,7 @@ const Crane = () => import('@/views/crane/index.vue')
 const Loading = () => import('@/views/loading/index.vue')
 const Yard = () => import('@/views/yard/index.vue')
 const Container = () => import('@/views/container/index.vue')
+const Reefer = () => import('@/views/reefer/index.vue')
 const Yardstore = () => import('@/views/yardstore/index.vue')
 const Gate = () => import('@/views/gate/index.vue')
 const Truck = () => import('@/views/truck/index.vue')
@@ -31,6 +32,7 @@ const router = createRouter({
     { path: '/loading', name: 'loading', component: Loading },
     { path: '/yard', name: 'yard', component: Yard },
     { path: '/container', name: 'container', component: Container },
+    { path: '/reefer', name: 'reefer', component: Reefer },
     { path: '/yardstore', name: 'yardstore', component: Yardstore },
     { path: '/gate', name: 'gate', component: Gate },
     { path: '/truck', name: 'truck', component: Truck },

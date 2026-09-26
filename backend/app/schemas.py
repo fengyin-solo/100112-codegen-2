@@ -113,6 +113,18 @@ class ContainerEntry(BaseModel):
     field_6: str | None = None  # 检验到期日
     field_7: str | None = None  # 箱体状态
 
+class ReeferEntry(BaseModel):
+    """冷藏箱温控明细结构。"""
+
+    field_0: str | None = None  # 箱号
+    field_1: str | None = None  # 温度下限
+    field_2: str | None = None  # 温度上限
+    field_3: str | None = None  # 巡检频次(小时)
+    field_4: str | None = None  # 当前箱温
+    field_5: str | None = None  # 判定结果
+    field_6: str | None = None  # 超温持续(小时)
+    field_7: str | None = None  # 巡检人
+
 class YardstoreEntry(BaseModel):
     """堆存单明细结构。"""
 
